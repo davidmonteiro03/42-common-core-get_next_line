@@ -6,7 +6,7 @@
 /*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/06 20:53:29 by dcaetano          #+#    #+#             */
-/*   Updated: 2023/11/21 14:42:20 by dcaetano         ###   ########.fr       */
+/*   Updated: 2025/02/14 11:09:03 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,12 +23,9 @@
 
 # endif
 
-# include <unistd.h>
-# include <fcntl.h>
-# include <stdlib.h>
 # include <stdio.h>
-# include <sys/types.h>
-# include <sys/stat.h>
+# include <stdlib.h>
+# include <unistd.h>
 
 char	*get_next_line(int fd);
 char	*ft_strchr(const char *str, int c);

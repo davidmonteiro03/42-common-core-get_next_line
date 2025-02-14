@@ -6,7 +6,7 @@
 /*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/06 20:54:34 by dcaetano          #+#    #+#             */
-/*   Updated: 2023/11/21 15:02:39 by dcaetano         ###   ########.fr       */
+/*   Updated: 2025/02/14 11:08:28 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ char	*ft_jointfree(char *str, char *buff)
 	return (temp);
 }
 
-char	*read_file(int fd, char	*buffer)
+char	*read_file(int fd, char *buffer)
 {
 	char	*buf;
 	int		bytes;
@@ -48,7 +48,7 @@ char	*read_file(int fd, char	*buffer)
 	return (buffer);
 }
 
-char	*next_buffer(char	*buffer)
+char	*next_buffer(char *buffer)
 {
 	char	*temp;
 	int		i;
@@ -69,9 +69,9 @@ char	*next_buffer(char	*buffer)
 	return (temp);
 }
 
-char	*next_line(char	*buffer)
+char	*next_line(char *buffer)
 {
-	int		i;
+	int	i;
 
 	i = 0;
 	while (buffer[i] && buffer[i] != '\n')
